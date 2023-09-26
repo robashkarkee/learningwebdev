@@ -1,0 +1,129 @@
+*{
+    margin:0px;
+    padding :0px;
+}
+img{
+    width: 200px;
+    height:60px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+    header{
+        display:flex;
+        justify-content: space-between;
+        /* padding-top: 10px; */
+        align-items: center;
+        background-color: rgb(39,39,41);
+        color:azure;
+        position: fixed;
+    }
+    .nav-links{
+        list-style:none;
+    }
+     .nav-links li{
+        display: inline-block;
+        margin-left: 10px;
+        padding-right:40px;
+        color:azure;
+     }
+     .nav-links li a:hover{
+        color:skyblue;
+     }
+     .btn-login{
+         width:60px;
+        height:30px;
+        border-radius: 10px;
+        background-color:rgb(249, 249, 249);
+        color: rgb(4, 42, 75);
+        border-style: none;
+        cursor: pointer;
+        margin-right: 20px;
+     }
+     .btn-login:hover{
+        background-color:silver;
+     }
+     .big{
+        font-size:45px;
+     }
+     .small{
+        font-size: 20px;
+        color: rgb(74, 69, 69);
+     }
+     .main-image{
+        height:350px;
+        width:400px;
+        margin-left:150px;
+        margin-right:80px;
+        margin-top:30px;
+     }
+     .main{
+        display: flex;
+        background-color: rgb(39, 39, 44);
+        padding-top:01px;
+        font-size:large;
+     }
+     .bin-login{
+        color: white;
+        margin-top: 100px;
+        margin-left: 15px;
+        height: 40px;
+        width:120px;
+        border-radius: 21px;
+        background-color:skyblue;
+        cursor:pointer;
+        border-style: none;
+        margin-bottom: 40px;
+        
+     }
+     .bin-login:hover{
+        background-color:rgb(105, 182, 210);
+     }
+     .main-text{
+      font-weight:700;
+      color: azure;
+        margin-left: 20px;
+        padding-top: 60px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     }
+     .ll-ll{
+      padding-left:535px;
+      font-size:35px;
+      color:rgb(37, 37, 87);
+     }
+    .client-area{
+      background-color: rgb(181, 181, 164);
+      padding-left:300px;
+      padding-top: 20px;
+      color: rgb(72, 72, 138);
+      padding-bottom:15px;
+     }
+     .client-logo{
+      margin-top: 20px;
+      margin-right:20px;
+      padding-left:40px;
+      height:120px;
+      width:150px;
+     }
+     .our-clients{
+      padding-left:200px;
+     }
+     .About-Us{
+      padding-left:550px;
+      margin-top:10px;
+     }
+     .paragraph-div{
+      margin-top:16px;
+      display: flex;
+      justify-content: space-around;
+      align-items: start;
+      text-align:left;
+      padding-left: 150px;
+
+     }
+     .paragraph-div p{
+      width: 500px;
+     }
+
+
